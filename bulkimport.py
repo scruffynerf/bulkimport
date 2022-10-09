@@ -76,7 +76,7 @@ def main():
 
     if PLUGIN_ARGS:
         log.debug("--Starting Plugin 'Bulk Import'--")
-        if "importstudios" in PLUGIN_ARGS:
+        if "bulkimportstudios" in PLUGIN_ARGS:
             log.info("Importing Studio list in bulk")
             importstudios()
         exit_plugin("Bulk Import plugin finished")
