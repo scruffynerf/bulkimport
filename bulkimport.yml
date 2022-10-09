@@ -1,0 +1,13 @@
+name: Bulk Import
+description: Bulk Import studios/etc
+version: 0.1
+url: https://github.com/scruffynerf/bulkimport
+exec:
+  - python3
+  - "{pluginDir}/bulkimport.py"
+interface: raw
+tasks:
+  - name: 'Bulk Import Studios'
+    description: Bulk Import studios from file
+    defaultArgs:
+      mode: bulkimportstudios
